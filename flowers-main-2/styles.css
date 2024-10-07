@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('fondo.jpg'); /* Cambia esto por la ruta a tu imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra más intensa */
+}
+
+h1 {
+    color: #ff69b4; /* Color rosa */
+    margin-bottom: 20px; /* Espaciado debajo del título */
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px; /* Espaciado del botón */
+    font-size: 16px;
+    color: white; /* Color del texto */
+    background-color: #ff1493; /* Color de fondo del botón */
+    border: none;
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+    transition: background-color 0.3s; /* Transición para el color de fondo */
+}
+
+.button:hover {
+    background-color: #c71585; /* Color del botón al pasar el mouse */
+}
